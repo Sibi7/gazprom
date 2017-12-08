@@ -4,6 +4,7 @@
 $RBCGRegular: 'RBCG-Regular';
 $RBCGMedium: 'RBCG-Medium';
 $RBCGSemiBold: 'RBCG-Simi-Bold';
+$RBCGBold: 'RBCG-Bold';
 
 @font-face {
   font-family: 'RBCG-Regular';
@@ -31,6 +32,15 @@ $RBCGSemiBold: 'RBCG-Simi-Bold';
   url('../fonts/RBC-graphik/GraphikRBCLC-Semibold-Web.woff') format('woff'),
   url('../fonts/RBC-graphik/GraphikRBCLC-Semibold-Web.ttf') format('truetype'),
   url('../fonts/RBC-graphik/GraphikRBCLC-Semibold-Web.svg') format('svg');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'RBCG-Bold';
+  src: url('../fonts/RBC-graphik/GraphikRBCLC-Bold-Web.eot') format('embedded-opentype'),
+  url('../fonts/RBC-graphik/GraphikRBCLC-Bold-Web.woff2') format('woff2'),
+  url('../fonts/RBC-graphik/GraphikRBCLC-Bold-Web.woff') format('woff'),
+  url('../fonts/RBC-graphik/GraphikRBCLC-Bold-Web.ttf') format('truetype'),
+  url('../fonts/RBC-graphik/GraphikRBCLC-Bold-Web.svg') format('svg');
   font-weight: normal;
 }
 /*=================================================================

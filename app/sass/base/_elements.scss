@@ -11,3 +11,34 @@ button{
   overflow: hidden;
   clear: both;
 }
+.social-share{
+  width: 640px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  a{
+    width: 213.3px;
+    height: 60px;
+    border: solid 1px #d7d7d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: 200ms ease;
+    &:hover{
+      background: rgba(22, 182, 127, .7);
+      transition: 200ms ease;
+      border: transparent;
+      path{
+        fill: #fff;
+        transition: 200ms ease;
+      }
+    }
+    &:nth-child(2){
+      border-left: 0;
+      border-right: 0;
+    }
+  }
+}
