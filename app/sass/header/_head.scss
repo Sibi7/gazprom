@@ -1,0 +1,48 @@
+.header{
+  .top-line {
+    width: 100%;
+    height: 36px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    .logo{
+      margin-left: 24px;
+    }
+  }
+  .bottom-line{
+    display: flex;
+    width: 100%;
+    height: 99px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    .title{
+      font-family: $RBCGSemiBold;
+      font-size: 28px;
+      line-height: 1;
+      text-align: left;
+      color: #000000;
+      margin-left: 24px;
+      text-transform: uppercase;
+    }
+    .social{
+      margin-right: 24px;
+      a{
+        display: inline-block;
+        margin: 0 7px;
+        img{
+          width: 32px;
+          height: 32px;
+          object-fit: contain;
+          transition: 300ms ease;
+          &:hover{
+            transform: scale(1.1);
+            transition: 300ms ease;
+          }
+        }
+      }
+    }
+  }
+}
