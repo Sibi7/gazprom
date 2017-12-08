@@ -4,10 +4,9 @@
   display: flex;
   flex-direction: column;
   .photo-block {
-    margin-top: 57px;
     display: flex;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
     img {
       width: 100%;
       height: 100%;
@@ -16,6 +15,7 @@
   }
   .text-wrapper {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     position: relative;
     margin-top: 25px;
@@ -46,7 +46,7 @@
         margin: 0;
         color: #000000;
       }
-      p {
+      h3 {
         width: 100%;
         font-family: $RBCGSemiBold;
         font-size: 21px;
@@ -55,6 +55,84 @@
         text-align: left;
         color: #000000;
         margin: 21px 0 0 0;
+      }
+      p {
+        width: 640px;
+        margin: 20px 0;
+        font-family: $RBCGRegular;
+        font-size: 18px;
+        line-height: 1.44;
+        text-align: left;
+        color: #000000;
+      }
+      h4 {
+        font-family: $RBCGSemiBold;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.08;
+        color: #000000;
+        margin-top: 0;
+        margin-bottom: 25px;
+      }
+      .photo-block{
+        width: 640px;
+        min-height: 365px;
+      }
+      .progres-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        p{
+          font-family: $RBCGRegular;
+          font-size: 14px;
+          margin: 10px 0 0 0;
+          line-height: inherit;
+          color: #000000;
+
+        }
+        span{
+          color: #b8b8b8;
+          font-family: $RBCGRegular;
+          font-size: 14px;
+          text-align: left;
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+        .skills{
+          text-align: right;
+          padding-right: 20px;
+          line-height: 40px;
+          height: 10px;
+          background-color: #16b67f;
+          color: white;
+        }
+        .skills-90{
+           width: 90%;
+
+         }
+        .skills-70{
+          width: 70%;
+        }
+        .skills-40{
+          width: 40%;
+        }
+        .skills-30{
+          width: 30%;
+        }
+        .skills-25{
+          width: 25%;
+        }
+        .skills-20{
+          width: 20%;
+        }
+        .skills-15{
+          width: 15%;
+        }
+        .skills-10{
+          width: 10%;
+        }
+
       }
     }
   }

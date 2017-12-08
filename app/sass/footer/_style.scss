@@ -1,0 +1,37 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  padding: 25px;
+  .social {
+    a {
+      display: inline-block;
+      margin: 0 7px;
+      img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+        transition: 300ms ease;
+        border-radius: 50%;
+        &:hover {
+          transform: scale(1.1);
+          transition: 300ms ease;
+        }
+      }
+    }
+  }
+  .copyright{
+    width: 397px;
+    position: relative;
+    p{
+      font-family: $RBCGRegular;
+      font-size: 14px;
+      line-height: 1.29;
+      letter-spacing: -0.2px;
+      text-align: left;
+      color: #000;
+    }
+  }
+}
